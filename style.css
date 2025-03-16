@@ -1,0 +1,53 @@
+body{
+	font-family: 'open=sans', sans serif;
+	background-image: url("klinik.jpg");
+	opacity: 0.9;
+	background-position: center;
+	text-align: center;
+}
+.bghitam {
+  background: black;
+  height: 130vh; 
+  position: absolute; 
+  top:0; 
+  left: 0; 
+  right: 0; 
+  opacity: 50%; 
+  z-index: -3
+}
+h1{
+	text-align: center;
+	text-transform: 300;
+}
+.tulisan_login{
+	text-align: center;
+	text-transform: 300;
+}
+.kotak_login{
+	width: 350;
+	background: pink;
+	margin: 80px;
+	padding: 30px 20px;
+}
+label{
+	font-size: 20pt;
+	color: black;
+}
+.form_login{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.tombol_login{
+	background: grey;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
